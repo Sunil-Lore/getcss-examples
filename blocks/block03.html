@@ -1,0 +1,72 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+Block template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-05/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss example 009 | Block template with heading and description</title>
+    <!-- Custom template style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+
+h2,h4{
+    font-family: 'Playfair Display', serif;
+}
+p,h6,a{
+    font-family: 'Roboto Mono', monospace;
+}
+hr.row{
+    width:100px;
+    margin:auto;
+    border-top: 3px solid black;
+    letter-spacing: 4;
+}
+a{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color:black;
+}
+    </style>
+    <!-- Custom template style end -->
+</head>
+<body>
+    <div class="container-lg p-5-pr floralwhite">
+        <div class="row fx-wrap silver-light-40 p-20-px">
+            <div class="col-md-4 p-20-px txt-right">
+                <h6>WELCOME TO</h6>
+                <h4>D5 WEB HOSTING</h4>
+                <br />
+                <p class="grey-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                </p>
+            </div>
+            <div class="col-md-4 p-20-px">
+                <div>
+                    <p class="txt-uppercase txt-center">
+                        <b>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque libero non aut fuga, molestiae vero nam qui ducimus eum deleniti?
+                        </b>                    
+                    </p>
+                </div>
+                <div class="p-y-30-px txt-center">
+                    <a href="#"><b>READ MORE</b></a>
+                </div>
+            </div>
+            <div class="col-md-4 p-20-px">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error veritatis sed quo dicta, at reprehenderit temporibus quasi velit quas consequatur deserunt obcaecati quae corporis doloremque.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

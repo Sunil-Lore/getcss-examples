@@ -1,0 +1,75 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+Block template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-05/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss example 008 | Block template with heading and description</title>
+    <!-- Custom template style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+
+h2,h5{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+hr.row{
+    width:100px;
+    margin:auto;
+    border-top: 3px solid black;
+    letter-spacing: 4;
+}
+
+    </style>
+    <!-- Custom template style end -->
+</head>
+<body>
+    <div class="container-lg p-5-pr floralwhite">
+        <div class="row fx-wrap">
+            <div class="col-md-6 p-y-100-px p-x-50-px">
+                <div class="txt-center">
+                    <h2>Our best Windows hosting plans</h2>
+                    <br />
+                    <hr class="row"/>
+                </div>
+            </div>
+            <div class="col-md-6 p-50-px fx-perfect-center">
+                <p><b><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vero nam neque beatae iste consequuntur, dignissimos illo! Commodi ut quaerat quia natus voluptates deserunt, laudantium illo?</i></b></p>
+            </div>
+        </div>
+        <div class="row fx-wrap silver-light-40 p-20-px">
+            <div class="col-md-4 p-20-px">
+                <h5>Unlimited Database</h5>
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque libero non aut fuga, molestiae vero nam qui ducimus eum deleniti?
+                </p>
+            </div>
+            <div class="col-md-4 p-20-px">
+                <h5>24&times;7 Support</h5>
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ut molestias iusto molestiae consequuntur vel, saepe numquam atque magnam quae.
+                </p>
+            </div>
+            <div class="col-md-4 p-20-px">
+                <h5>Free Sitebuilder</h5>
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit minus, dolore facere ipsam at vitae? Quidem libero eveniet aperiam!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
