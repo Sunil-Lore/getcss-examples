@@ -1,1 +1,118 @@
-n
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+Navigation bar template 01
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss navigation bar example 01</title>
+    <!-- Custom template style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        a{
+            margin:10px;
+        }
+        #navbar{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            background:gray;
+            width:20%;
+            height:100%;
+            overflow:auto;
+            position:fixed;
+        }
+        @media screen and (max-width:1008px) {
+            #navbar{
+                width:100%;
+                height:auto;
+                position:relative;
+            }
+            #navbar a{
+                float:left;
+            }
+        }
+        @media screen and (max-width:528px) {
+            #navbar a{
+                float:none;
+                text-align:center;
+            }
+        }
+        #navbar li a{
+            color:ghostwhite;
+            padding:10px;
+            display:block;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        h1,h5{
+            font-family: 'Playfair Display', serif;
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+        }
+        hr.row{
+            width:100px;
+            margin:auto;
+            border-top: 3px solid black;
+            letter-spacing: 4;
+        }
+        @media screen and (min-width:1008px){
+            #contentbar{
+            margin-left:33%;
+        }
+        }
+
+    </style>
+    <!-- Custom template style end -->
+</head>
+<body>
+    <div class="container-fluid">
+            <ul id="navbar">
+                <li id="home"><a href="#"><b>Home</b></a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        <div class="p-4-pr" id="contentbar">
+            <div class="txt-center">
+                <!-- getcss template freeflow01 Heading start -->
+                <h1>Project 9</h1>
+                 <!-- getcss template freeflow01 Heading end -->
+                <br />
+                
+                <hr class="row"/>
+                <br />
+                <!-- getcss template freeflow01 SubHeading start -->
+                <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, consequatur!</h5>
+                <!-- getcss template freeflow01 SubHeading end -->
+                <br />
+            </div>
+            
+            <!-- getcss template freeflow01 text start -->
+            <div class="txt-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate recusandae perferendis ex rem eligendi at deleniti accusantium atque. Provident molestias doloribus, autem commodi necessitatibus et voluptatum praesentium natus deserunt facere totam. Blanditiis, dignissimos fugiat mollitia at corrupti aperiam explicabo eligendi, perferendis veritatis velit, rerum voluptas. Aliquid dignissimos ameti voluptatum maiores suscipit, veritatis corporis veniam alias minus eum provident obcaecati quidem. Quidem iusto eos facere recusandae commodi dolore tempora et suscipit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, error quam. Eos incidunt odio temporibus voluptatum, omnis, ipsa in veniam quibusdam nemo recusandae at atque! Repudiandae deleniti nulla perspiciatis distinctio nemo soluta. Vitae digniss sunt iste quos rem. Est consequuntur similique officiis necessitatibus et doloremque architecto reprehenderit labore dignissimos, cumque tempora quos impedit molestiae magnam quidem. Voluptate nihil eum itaque laborum esse dolores velit, nemo unde voluptas corporis temporibus id iusto aliquid ea!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate recusandae perferendis ex rem eligendi at deleniti accusantium atque. Provident molestias doloribus, autem commodi necessitatibus et voluptatum praesentium natus deserunt facere totam. Blanditiis, dignissimos fugiat mollitia at corrupti aperiam explicabo eligendi, perferendis veritatis velit, rerum voluptas. Aliquid dignissimos ameti voluptatum maiores suscipit, veritatis corporis veniam alias minus eum provident obcaecati quidem. Quidem iusto eos facere recusandae commodi dolore tempora et suscipit.</p>
+                <br />
+                <hr />
+            </div>
+            <!-- getcss template freeflow01 text end -->
+             <!-- getcss template freeflow01 footer start -->
+            <div>
+                <br />
+                <p>A <a href="https://www.getcss.org"><b>getcss</b></a> template | Designed with &#128151; by <a href="https://www.linkedin.com/in/loresunil/" class=" dimgrey-txt"><b>Sunil</b></a>. </p>
+                <br />
+            </div>
+            <!-- getcss template freeflow01 footer end -->
+        </div>
+    </div>
+</body>
+</html>
