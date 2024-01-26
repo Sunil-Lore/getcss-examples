@@ -1,0 +1,83 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+Block template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-05/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss example 011 | Block template with heading and description</title>
+    <!-- Custom template style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+h2,h4{
+    font-family: 'Playfair Display', serif;
+}
+p,h6,a{
+    font-family: 'Roboto Mono', monospace;
+}
+.btn{
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color:black;
+    color:silver;
+    margin: 10px;
+}
+a:hover{
+    background-color: silver;
+    color:black;
+}
+img{
+    margin:auto;
+}
+#js{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+    </style>
+    <!-- Custom template style end -->
+</head>
+<body>
+    <div class="container-lg p-5-pr floralwhite">
+        <div class="row fx-wrap silver-light-40">
+            <div class="col-md-6 p-4-pr txt-center">
+                <div>
+                    <img src="../img/block/office.jpg" class="image-grey" alt="office women" width="180" height="180" />
+                </div>
+                <div>
+                    <h5>Monica Iyer</h5>
+                    <h6 class="fs-16">(She/Her)</h6>
+                    <p class="fs-14">Graphic Designer </p><br />
+                </div>
+                <a href="#" class="btn">Reach Out</a><br /><br />
+                <a href="#"><i class="bi bi-facebook fs-24 black-txt" ></i></a>&nbsp;&nbsp;
+                            <a href="#"><i class="bi bi-pinterest fs-24 black-txt" ></i></a>&nbsp;&nbsp;
+                            <a href="#"><i class="bi bi-twitter fs-24 black-txt" ></i></a>&nbsp;&nbsp;
+                            <a href="#"><i class="bi bi-instagram fs-24 black-txt" ></i>
+                </a>
+                
+            </div>
+            <div class="col-md-6 p-4-pr p-y-5-pr grey">
+                <div>
+                <h4>About Me</h4>
+                <br />
+                <p class="fs-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dignissimos fuga aspernatur corrupti, quasi rem quos quo libero, maiores suscipit error molestias quis omnis enim doloribus? Nostrum tempore nisi veniam voluptatum. Sint voluptatum nostrum deleniti vel autem provident ad voluptates. A, non temporibus. Aspernatur ad beatae rerum, quaerat corporis nam.</p>
+                </div>
+                <div id="js">
+                    <a href="#" class="btn">Portfolio</a><a href="#" class="btn">Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
