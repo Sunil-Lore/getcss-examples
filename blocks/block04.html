@@ -2,7 +2,7 @@
 getcss : An intuitive CSS framework
 https://www.getcss.org
 Licensed under MIT Open Source
-Block template
+Block template 04
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@ Block template
     <meta name="author" content="Sunil Kumar">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-05/dist/css/getcss.min.css"> 
     <link rel="canonical" href="#">
-    <title>getcss example 011 | Block template with heading and description</title>
+    <title>getcss example | Block template</title>
     <!-- Custom template style start -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
@@ -37,6 +37,8 @@ a:hover{
 }
 img{
     margin:auto;
+    border-radius: 5%;
+    border: 3px solid silver;
 }
 #js{
     display: flex;
@@ -44,15 +46,28 @@ img{
     justify-content: space-around;
     margin: 30px;
 }
+#image-txt{
+            font-size: large;
+            position:relative;
+            text-align:center;
+            color:white;
+        }
+        #txt-position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     </style>
     <!-- Custom template style end -->
 </head>
 <body>
     <div class="container-lg p-5-pr floralwhite">
-        <div class="row fx-wrap silver-light-40">
-            <div class="col-md-6 p-4-pr txt-center">
-                <div>
-                    <img src="../img/block/office.jpg" class="image-grey" alt="office women" width="180" height="180" />
+        <div class="row fx-wrap">
+            <div class="col-md-6 p-4-pr txt-center gainsboro">
+                <div id="image-txt">
+                    <img src="../img/block/profile.png" alt="office women" width="180" height="180" />
+                    <div id="txt-position">180*180</div>
                 </div>
                 <div>
                     <h5>Monica Iyer</h5>
@@ -67,7 +82,7 @@ img{
                 </a>
                 
             </div>
-            <div class="col-md-6 p-4-pr p-y-5-pr grey">
+            <div class="col-md-6 p-4-pr p-y-5-pr darkgrey">
                 <div>
                 <h4>About Me</h4>
                 <br />

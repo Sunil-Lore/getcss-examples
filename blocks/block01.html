@@ -29,14 +29,28 @@ Block template 01
         .br-10-px{
             border-radius: 10px;
         }
+        #image-txt{
+            font-size: large;
+            position:relative;
+            text-align:center;
+            color:grey;
+        }
+        #txt-position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
     </style>
     <!-- Custom template style end -->
 </head>
 <body>
     <div class="container-lg p-5-pr floralwhite">
         <div class="row fx-wrap">
-            <div class="col-md-3 p-20-px fx-perfect-center">
-                    <img src="../img/blocks/office.jpg" class="image-grey" alt="office women" width="150" height="150" />
+            <div class="col-md-3 p-20-px fx-perfect-center" id="image-txt">
+                    <img src="../img/block/profile.png" class="image-grey" alt="office women" width="150" height="150" />
+                    <div id="txt-position">150*150</div>
             </div>
             <div class="col-md-9 p-30-px txt-center">
                 <h2>Best web hosting plans</h2>
