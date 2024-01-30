@@ -1,0 +1,69 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+block example 07
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss block example 07</title>
+    <!-- Custom example style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        h1{
+            font-family: 'Playfair Display', sans-serif;
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+        }
+        #image-txt{
+            font-size: large;
+            position:relative;
+            text-align:center;
+            color:grey;
+        }
+        #txt-position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img{
+            border: 3px solid silver;
+            margin:10%;
+        }
+    </style>
+    <!-- Custom example style end -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fx-wrap p-20-px azure"> <!-- previous work row start -->
+            <div class="col-md-6 fx-column">
+                <div class="h-50-pr">
+                    <h1>Previous Work</h1>
+                    <br />
+                </div>
+                <div class="p-10-px txt-center" id="image-txt">
+                    <img src="../img/600by400.png" alt="profile image" width="600" height="400" class="image-fluid"/>
+                    <div id="txt-position">600*400</div>
+                </div>
+                <p class="txt-center">2023 - Lorem ipsum amet consectetur.</p>
+
+            </div>
+            <div class="col-md-6">
+                <div class="p-10-px fx-center" id="image-txt">
+                    <img src="../img/600by800.png" alt="profile image" width="600" height="800" class="image-flex"/>
+                    <div id="txt-position">600*800</div>
+                </div>
+                <p class="txt-center">2022 - Lorem dolor sit amet.</p>
+            </div>
+        </div> <!-- previous work row end -->
+    </div>
+</body>
+</html>

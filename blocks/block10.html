@@ -1,0 +1,74 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+block example 10
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss block example 10</title>
+    <!-- Custom example style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        h1,h2,h4,h6{
+            font-family: 'Playfair Display', serif;
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+        }
+        #image-txt{
+            font-size: large;
+            position:relative;
+            text-align:center;
+            color:grey;
+        }
+        #txt-position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img{
+            border: 3px solid silver;
+            margin:10%;
+        }
+    </style>
+    <!-- Custom example style end -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fx-wrap p-20-px skyblue"> <!-- row start -->
+            <div class="col-md-5 fx-perfect-center">
+                <div class="p-10-px" id="image-txt">
+                    <img src="../img/600by800.png" alt="profile image" width="600" height="800" class="image-flex"/>
+                    <div id="txt-position">600*800</div>
+                </div>
+            </div>
+            <div class="col-md-7 p-7-pr">
+                    <h1>Education</h1>
+                    <h6>Master of Arts in Photography</h6>
+                    <p>2017 - IBS University</p>
+                    <br />
+                    <h6>BA in Creative Arts</h6>
+                    <p>2015 - Jodhpur Govt. College</p>
+                    <br />
+                    <br />
+                    <h1>Experience</h1>
+                    <h6>Assistant Creative Director</h6>
+                    <p>2021 - Ethnik Studio</p>
+                    <br />
+                    <h6>Photographer</h6>
+                    <p>2018 - Ethnik Studio</p>
+                    <br />
+
+            </div>
+        </div> <!-- row end -->
+    </div>
+</body>
+</html>

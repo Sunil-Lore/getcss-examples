@@ -1,0 +1,86 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+block example 05
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss block example 05</title>
+    <!-- Custom example style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        a{
+            margin:10px;
+        }
+        a:hover{
+            background-color: silver;
+            color:black;
+        }
+        h1{
+            font-family: 'Playfair Display', serif;
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+        }
+        #image-txt{
+            font-size: large;
+            position:relative;
+            text-align:center;
+            color:grey;
+        }
+        #txt-position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img{
+            border: 3px solid silver;
+            margin:10%;
+        }
+        .btn{
+            border: 2px solid black;
+            padding: 10px 20px;
+            background-color:black;
+            color:silver;
+            margin: 10px;
+        }
+    </style>
+    <!-- Custom example style end -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fx-wrap p-20-px lavender"> <!-- home row start -->
+            <div class="col-md-6">
+                <div class="p-10-px fx-center" id="image-txt">
+                    <img src="../img/600by800.png" alt="profile image" width="600" height="800" class="image-flex"/>
+                    <div id="txt-position">600*800</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="height:70%;">
+                    <br />
+                    <h1>Photographer</h1>
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="fx-align-items-end fx-space-around p-10-px m-10-px">
+                    <div>
+                        <p>Antony Perez</p>
+                        <p>Photographer</p>
+                    </div>
+                    <div>
+                        <p class="txt-right"><a href="#" class="btn">Hire Me</a></p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- home row end -->
+    </div>
+</body>
+</html>
