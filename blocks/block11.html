@@ -1,0 +1,85 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+block example 11
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss block example 11</title>
+    <!-- Custom example style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Playfair+Display&family=Roboto+Mono&display=swap');
+        a{
+            margin:10px;
+        }
+        a:hover{
+            background-color: silver;
+            color:black;
+        }
+        h1,h2{
+            font-family: 'Playfair Display', serif;
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+        }
+        #image-txt{
+            font-size: large;
+            position:relative;
+            text-align:center;
+            color:grey;
+        }
+        #txt-position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img{
+            border: 3px solid silver;
+            margin:10%;
+        }
+        p{
+            line-height: 1.5;
+        }
+        .btn{
+            border: 2px solid black;
+            padding: 10px 20px;
+            background-color:black;
+            color:silver;
+            margin: 10px;
+        }
+    </style>
+    <!-- Custom example style end -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fx-wrap azure"> <!-- row start -->
+            <div class="col-md-6">
+                <div class="p-10-pr" id="image-txt">
+                    <img src="../img/600by800.png" alt="profile image" width="600" height="800" class="image-fluid"/>
+                    <div id="txt-position">600*800</div>
+                </div>
+            </div>
+            <div class="col-md-6 fx-perfect-center tan">
+                <div class="p-15-pr txt-center">
+                    <p class="txt-uppercase fs-16">Lorem ipsum dolor sit amet.</p>
+                    <br />
+                    <h2>Pet Clinic</h2>
+                    <br />
+                    <p class="fs-14 txt-center ls-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quo nobis maxime optio odit incidunt voluptas exercitationem minus velit animi. Voluptates eaque facilis facere aut!</p>
+                    <br />
+                    <br />
+                    <p><a href="#" class="btn txt-uppercase">Read More</a></p>
+                </div>
+            </div>
+        </div> <!-- row end -->
+    </div>
+</body>
+</html>

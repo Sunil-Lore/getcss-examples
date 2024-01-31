@@ -1,0 +1,65 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+page/resume template 03
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss page/resume template 03</title>
+    <!-- Custom template style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        h6{
+            font-family: 'Playfair Display', serif;
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+        }
+        #image-txt{
+            font-size: large;
+            position:relative;
+            text-align:center;
+            color:grey;
+        }
+        #txt-position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img{
+            border-radius: 5%;
+            border: 3px solid silver;
+            margin:10%;
+        }
+
+    </style>
+    <!-- Custom template style end -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fx-wrap p-10-pr slategrey"> <!-- row / feedback row start -->
+            <div class="col-md-5 fx-perfect-center" id="image-txt">
+                    <img src="../img/250by250.png" alt="profile image" width="250" height="250" class="image-flex"/>
+                    <div id="txt-position">250*250</div>
+            </div>
+            <div class="col-md-7 fx-perfect-center">
+                <div>
+                    <br />
+                    <p class="txt-center">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, aut amet, delectus totam rerum, quaerat temporibus beatae vero dolor in non alias dolores tempora dicta?"</p>
+                    <br />
+                    <p class="txt-center"><b>Su Guo Ming</b></p>
+                    <p class="txt-center" style="font-size:small;">Regular client from Singapore</p>
+                </div>
+            </div>
+        </div> <!-- row / feedback row end -->
+    </div>
+</body>
+</html>
