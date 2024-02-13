@@ -1,0 +1,61 @@
+<!-- 
+getcss : An intuitive CSS framework
+https://www.getcss.org
+Licensed under MIT Open Source
+block example 15
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css"> 
+    <link rel="canonical" href="#">
+    <title>getcss block example 15</title>
+    <!-- Custom example style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        h1,h4{
+            font-family: 'Playfair Display', serif;
+        }
+        h1{
+                font-size: 58px;
+            }
+        @media only screen and (min-width: 768px) {
+            h1{
+                font-size: 100px;
+            }
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+        }
+        hr.hrow{
+            border:4px solid orange;
+        }
+    </style>
+    <!-- Custom example style end -->
+</head>
+<body>
+    <div class="container-fluid p-10-pr">
+        <div class="row">
+            <h1>Services</h1>
+            <hr class="hrow"/>
+        </div>
+        <div class="row fx-wrap"> <!-- row start -->
+            <div class="col-md-6 fx-perfect-center">
+                   <div class="p-3-pr">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores velit iusto voluptatibus praesentium odit, officia accusantium veniam repellendus reiciendis temporibus.</h4>
+                   </div>
+            </div>
+            <div class="col-md-6 fx-perfect-center p-2-pr">
+                <div class="p-3-pr gainsboro">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ducimus accusantium deleniti. Quam recusandae alias necessitatibus ducimus, perspiciatis ullam fugiat illum? Consectetur voluptatem, provident corrupti inventore totam et minima dolorum corporis laudantium odit non alias architecto dicta voluptatibus neque quas!</p>
+                    <br />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime qui dolores quae, dolorum dolore!</p>
+                   </div>
+            </div>
+        </div> <!-- row end -->
+    </div>
+</body>
+</html>
